@@ -113,6 +113,14 @@ publications_collection.update_many(
     {"$mul": {"prix": 1.10}}
 )
 ```
+```python
+res = publications_collection.update_many(
+    {"auteur": "Sophie Martin"},
+    {"$add": {"prix": {"$multiply": ["$prix", 0.10]}}}
+)
+
+print(res)
+```
 
 ### 7. Delete Example: Remove books published before 2010
 ```python
