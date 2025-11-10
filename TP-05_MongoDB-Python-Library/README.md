@@ -113,6 +113,8 @@ publications_collection.update_many(
     {"$mul": {"prix": 1.10}}
 )
 ```
+ou 
+
 ```python
 res = publications_collection.update_many(
     {"auteur": "Sophie Martin"},
