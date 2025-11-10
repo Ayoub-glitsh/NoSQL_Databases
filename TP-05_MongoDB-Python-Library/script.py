@@ -201,6 +201,15 @@ for doc in resultat:
 
 print(res) """
 
+ou 
+
+res = publications_collection.update_many(
+    {"auteur": "Sophie Martin"},
+    {"$add": {"prix": {"$multiply": ["$prix", 0.10]}}}
+)
+
+print(res)
+
 # 20) Supprimer les livres publiés avant 2010
 
 
@@ -210,6 +219,7 @@ print(res) """
 
 print(res)
    """
+
 
 
 client.close()
