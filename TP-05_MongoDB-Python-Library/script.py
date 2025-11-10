@@ -201,7 +201,7 @@ for doc in resultat:
 
 print(res) """
 
-ou 
+#ou 
 
 res = publications_collection.update_many(
     {"auteur": "Sophie Martin"},
@@ -223,3 +223,4 @@ print(res)
 
 
 client.close()
+
