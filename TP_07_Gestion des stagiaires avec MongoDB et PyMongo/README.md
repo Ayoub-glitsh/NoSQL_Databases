@@ -4,7 +4,7 @@ Ce projet présente un script Python complet pour la gestion des utilisateurs, d
 
 ## 📁 Structure du projet
 
-- **Mongo_Ayoub_Aguezar_CC3.py** : Script principal contenant toutes les opérations MongoDB
+- **Script.py** : Script principal contenant toutes les opérations MongoDB
 - **README.md** : Documentation du projet (ce fichier)
 
 ## 📋 Prérequis
@@ -75,7 +75,7 @@ Le script insère trois stagiaires avec des profils différents :
 
 Pour exécuter le script :
 ```bash
-python Mongo_Ayoub_Aguezar_CC3.py
+python Script.py
 ```
 ## 📈 Résultats attendus
 
